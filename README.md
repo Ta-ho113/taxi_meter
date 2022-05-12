@@ -1,24 +1,44 @@
-# README
+# アプリケーション名
+タクシー料金計算アプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# アプリケーション概要
+タクシーの1日の売上や、その内訳(決済方法別)を自動計算することで、帰庫時の納金作業の効率化を図る。
 
-Things you may want to cover:
+# URL
+(デプロイ済みのURLを記載。デプロイが済んでいない場合は、デプロイが完了次第記載すること。)
 
-* Ruby version
+# テスト用アカウント
+(ログイン機能等を実装した場合は、ログインに必要な情報を記載。またBasic認証等を設けている場合は、そのID/Passも記載すること。)
 
-* System dependencies
+# 利用方法
+1,初めにBasic認証(氏名、社員番号)でログイン
+2,マイページが表示され、開局ボタンを押すと、再度氏名と社員番号(Basic認証と同じ)を入力し、開局(乗務開始時に行う)
+3,乗務中、乗客ごとに乗車料金、決済方法などを記載し、乗車記録を登録する。
+4,帰庫した際に閉局ボタンを押し、1日の総売上に誤りがないかを確認し、乗務終了ボタンを押して1日の作業終了
 
-* Configuration
+# アプリケーションを作成した背景
+コロナ禍で3密による感染拡大を避けると同時に、帰庫時の納金作業を効率化させるため。
 
-* Database creation
+# 洗い出した要件
+https://docs.google.com/spreadsheets/d/1oz2nyFaseWKJl73UNzs6Usa57vH9g--51Epc7dzAqBI/edit#gid=982722306
 
-* Database initialization
+# 実装した機能についての画像やGIFおよびその説明
+実装した機能について、それぞれどのような特徴があるのかを列挙する形で記載。画像はGyazoで、GIFはGyazoGIFで撮影すること。
 
-* How to run the test suite
+# 実装予定の機能
+運行記録管理機能、乗車記録管理機能
 
-* Services (job queues, cache servers, search engines, etc.)
+# データベース設計
+(ER図を添付。)
 
-* Deployment instructions
+# 画面遷移図
+(ER図を添付。)
 
-* ...
+# 開発環境
+(使用した言語・サービスを記載。)
+
+# ローカルでの動作方法
+(git cloneしてから、ローカルで動作をさせるまでに必要なコマンドを記載。)
+
+# 工夫したポイント
+(制作背景・使用技術・開発方法・タスク管理など、企業へＰＲしたい事柄を記載。)
