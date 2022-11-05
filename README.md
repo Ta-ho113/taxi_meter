@@ -29,7 +29,7 @@ https://docs.google.com/spreadsheets/d/1oz2nyFaseWKJl73UNzs6Usa57vH9g--51Epc7dzA
 運行記録管理機能、乗車記録管理機能
 
 # データベース設計
-(ER図を添付。)
+https://gyazo.com/4fe7f677d7bbcfe8617a36373f4e4fc9
 
 # 画面遷移図
 (ER図を添付。)
