@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>TaxiMeter</title>
+  </head>
+  <body>
+    <header>
+      <h1>運行管理記録</h1>
+      <!--閉局時-->
+        <div class='bottun'>開局</div>
+      <!--/閉局時-->
+      <!--開局時-->
+        <div class='bottun'>閉局</div>
+        <div class='name'>#氏名</div>
+        <div class='todays_date'>#現在日付</div>
+      <!--/開局時-->
+    </header>
+
+    <div class='record-contents'>
+      <ul class='record-lists'>
+      <!--繰り返し処理-->
+        <li class='list'>
+          <div class='record_date'>営業記録日</div>
+          <div class='amount_of_sales'>¥売上高</div>
+        </li>
+      <!--/繰り返し処理-->
+      <!--営業日報 == 0-->
+        <p>営業成績はありません。</p>
+      <!--/営業日報 == 0-->
+      </ul>
+    </div>
+
+    <footer>
+      (株)メータ交通
+    </footer>
+  </body>
+</html>
